@@ -1,0 +1,11 @@
+Name: WindowsPagefile
+Desc: Tor Windows Pagefile
+Table:
+  - TableName: lv1_tor_win_pagefile
+    Columns:
+      - system_file
+      - onion_site
+
+    Types:
+      - [TEXT, NOT NULL]
+      - [TEXT, NOT NULL]
